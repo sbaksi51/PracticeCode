@@ -10,7 +10,7 @@ public class Bank implements BankInterface {
 	private LinkedHashMap<Long, Account> accounts;
 
 	public Bank() {
-		// complete the function
+		return bank;
 	}
 
 	private Account getAccount(Long accountNumber) {
